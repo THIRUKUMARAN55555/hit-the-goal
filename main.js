@@ -101,7 +101,7 @@ function my_keydown(e)
 
 	function right()
 	{
-        if(ball_x <=5)
+        if(ball_x <=1050)
 		{
 			ball_x = ball_x + block_image_width;
 			console.log("block image width = " + block_image_width);
